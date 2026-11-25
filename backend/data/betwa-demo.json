@@ -1,0 +1,119 @@
+{
+  "river": [
+    {
+      "station": "Basoda (demo station)",
+      "river": "Betwa",
+      "date": "2026-11-20T06:00:00.000Z",
+      "level": 347.2,
+      "dangerLevel": 349.0,
+      "source": "Illustrative sample"
+    },
+    {
+      "station": "Basoda (demo station)",
+      "river": "Betwa",
+      "date": "2026-11-21T06:00:00.000Z",
+      "level": 347.35,
+      "dangerLevel": 349.0,
+      "source": "Illustrative sample"
+    },
+    {
+      "station": "Basoda (demo station)",
+      "river": "Betwa",
+      "date": "2026-11-22T06:00:00.000Z",
+      "level": 347.55,
+      "dangerLevel": 349.0,
+      "source": "Illustrative sample"
+    },
+    {
+      "station": "Basoda (demo station)",
+      "river": "Betwa",
+      "date": "2026-11-23T06:00:00.000Z",
+      "level": 347.8,
+      "dangerLevel": 349.0,
+      "source": "Illustrative sample"
+    }
+  ],
+  "rainfall": [
+    {
+      "date": "2026-11-20",
+      "rainfall": 8.2,
+      "source": "Illustrative sample"
+    },
+    {
+      "date": "2026-11-21",
+      "rainfall": 14.5,
+      "source": "Illustrative sample"
+    },
+    {
+      "date": "2026-11-22",
+      "rainfall": 22.1,
+      "source": "Illustrative sample"
+    },
+    {
+      "date": "2026-11-23",
+      "rainfall": 31.4,
+      "source": "Illustrative sample"
+    }
+  ],
+  "areas": [
+    {
+      "id": "A1",
+      "name": "Vidisha riverbank (demo zone)",
+      "risk": "High",
+      "lat": 23.5251,
+      "lng": 77.8081,
+      "note": "Illustrative risk zone; verify locally"
+    },
+    {
+      "id": "A2",
+      "name": "Basoda river approach (demo zone)",
+      "risk": "Moderate",
+      "lat": 23.8515,
+      "lng": 77.936,
+      "note": "Illustrative risk zone; verify locally"
+    }
+  ],
+  "shelters": [
+    {
+      "id": "S1",
+      "name": "Demo Relief Point \u2014 Vidisha",
+      "lat": 23.5258,
+      "lng": 77.8102,
+      "capacity": 150,
+      "occupied": 42,
+      "verified": false,
+      "type": "Demo point"
+    },
+    {
+      "id": "S2",
+      "name": "Demo Relief Point \u2014 Basoda",
+      "lat": 23.8502,
+      "lng": 77.9342,
+      "capacity": 100,
+      "occupied": 30,
+      "verified": false,
+      "type": "Demo point"
+    },
+    {
+      "id": "S3",
+      "name": "Demo High-Ground Marker \u2014 Ganj Basoda",
+      "lat": 23.866,
+      "lng": 77.918,
+      "capacity": 60,
+      "occupied": 0,
+      "verified": false,
+      "type": "Demo marker"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "AL1",
+      "title": "Betwa monitoring demo alert",
+      "message": "Sample observations are loaded. Confirm official river and rainfall readings before action.",
+      "severity": "info",
+      "createdAt": "2026-11-23T06:00:00.000Z"
+    }
+  ],
+  "reports": [],
+  "assessments": []
+}
